@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// font-family
+@font-face {
+  font-family: "cubic-11";
+  src: url("../assets/font/Cubic_11_1.013_R.ttf");
+  font-weight: normal;
+}
+
+@layer base {
+  html {
+    overflow: hidden;
+  }
+  body {
+    min-height: 100vh;
+    font-family: "cubic-11";
+    background: #181e2a;
+    color: white;
+  }
+}
+
+@layer components {
+  .btn-lg {
+    @apply px-11 h-[90px] bg-main text-h3 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1/2 after:w-full;
+    box-shadow: 8px 8px 0px 0px rgba(170, 170, 170, 0.8);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    &::after {
+      background: darken(#0693e3, 10%);
+    }
+  }
+  .btn-base {
+    @apply px-6 h-[90px] bg-main text-h4 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1/2 after:w-full;
+    box-shadow: 8px 8px 0px 0px rgba(170, 170, 170, 0.8);
+    text-shadow: 0.1em 0.1em 0.2em black;
+    &::after {
+      background: darken(#0693e3, 10%);
+    }
+  }
+}
+
+.h-main {
+  height: calc(100vh - 100px);
+}

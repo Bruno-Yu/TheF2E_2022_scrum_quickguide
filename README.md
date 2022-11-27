@@ -1,24 +1,30 @@
-# scrum_quickguide
+# THE F2E 2022 week 3 Scrum 新手村
 
-## Project setup
-```
-npm install
-```
+> Code: Bruno / Design: [Coral](https://coraltsai.com/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Introduction
 
-### Compiles and minifies for production
-```
-npm run build
-```
+介紹 Scrum 工作法的知識點
 
-### Lints and fixes files
-```
-npm run lint
-```
+適合桌面板展示 ( 最小寬度 1440px )
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> 網址:
+
+## How to run in local
+
+1. Clone this repository
+2. `npm install`
+3. `npm run serve`
+
+## Use tools
+
+- [Vue 3](https://vuejs.org/)
+- [Vue CLI](https://cli.vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Plugins
+
+- [GSAP](https://greensock.com/gsap/)
+- [vue3-smooth-dnd](https://github.com/gilnd/vue3-smooth-dnd)
+- [vue3-lottie](https://github.com/megasanjay/vue3-lottie)

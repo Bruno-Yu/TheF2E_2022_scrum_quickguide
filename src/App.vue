@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- progress bar -->
+  <div class="flex flex-col w-full h-screen">
+    <LoadingPage />
+    <PixelatedTransition />
+    <ProgressBar />
+    <router-view class="grow-1" />
+    <Footer />
+  </div>
+  <!-- 
+ -->
+  <!-- <div
+    class="xl:hidden bg-black w-full h-screen flex justify-center items-center"
+  >
+    <p class="text-xl">請使用桌機版瀏覽以獲得更好的使用者體驗</p>
+  </div> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Footer from "./components/FooterModule.vue";
+import ProgressBar from "./components/ProgressBar";
+import PixelatedTransition from "@/components/PixelatedTransition.vue";
+import LoadingPage from "./components/LoadingPage.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { Footer, ProgressBar, PixelatedTransition, LoadingPage },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
