@@ -6,9 +6,9 @@
 
 介紹 Scrum 工作法的知識點
 
-適合桌面板展示 ( 最小寬度 1440px )
+適合桌面板展示 ( 最小寬度 1536px )
 
-> 網址:
+> 網址: [https://bruno-yu.github.io/TheF2E_2022_scrum_quickguide/](https://bruno-yu.github.io/TheF2E_2022_scrum_quickguide/#/)
 
 ## How to run in local
 

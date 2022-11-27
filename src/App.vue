@@ -1,19 +1,17 @@
 <template>
   <!-- progress bar -->
-  <div class="flex flex-col w-full h-screen">
+  <div class="hidden 2xl:flex flex-col w-full h-screen">
     <LoadingPage />
     <PixelatedTransition />
     <ProgressBar />
     <router-view class="grow-1" />
     <Footer />
   </div>
-  <!-- 
- -->
-  <!-- <div
-    class="xl:hidden bg-black w-full h-screen flex justify-center items-center"
+  <div
+    class="2xl:hidden bg-black w-full h-screen flex justify-center items-center"
   >
-    <p class="text-xl">請使用桌機版瀏覽以獲得更好的使用者體驗</p>
-  </div> -->
+    <p class="text-2xl">請使用桌機版瀏覽以獲得更好的使用者體驗</p>
+  </div>
 </template>
 
 <script>
