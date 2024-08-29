@@ -1,6 +1,6 @@
 <template>
   <!-- progress bar -->
-  <div class="hidden 2xl:flex flex-col w-full h-screen">
+  <div class="hidden lg:flex flex-col w-screen h-screen">
     <LoadingPage />
     <PixelatedTransition />
     <ProgressBar />
@@ -8,7 +8,7 @@
     <Footer />
   </div>
   <div
-    class="2xl:hidden bg-black w-full h-screen flex justify-center items-center"
+    class="lg:hidden bg-black w-full h-screen flex justify-center items-center"
   >
     <p class="text-2xl">請使用桌機版瀏覽以獲得更好的使用者體驗</p>
   </div>
